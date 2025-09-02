@@ -1,19 +1,28 @@
-# 📦 Parcel  
+# React-3 🚀
 
-Parcel is a **blazing fast, zero-configuration web application bundler** 🚀.  
-It helps developers build, bundle, and optimize modern web apps with minimal setup.  
+This project continues my React learning journey. In **react-3**, the focus is on understanding **JSX**, **functional components**, and **component composition**.
 
-## ⚙️ Features
-- ⚡ **Dev Build** – builds your project for development  
-- 🌐 **Local Server** – runs a local server to preview your app  
-- 🔥 **HMR (Hot Module Replacement)** – updates code without refreshing the page  
-- 👀 **File Watching Algorithm** – detects changes fast (written in C++)  
-- 🚀 **Caching** – speeds up rebuilds with cached data  
-- 🖼️ **Image Optimization** – optimizes images automatically  
-- ✂️ **Minification** – reduces file size by removing unnecessary code  
-- 📦 **Bundling** – combines multiple files into one  
-- 📉 **Compressing** – compresses output for faster load times  
-- 🛠️ **Diagnostics** – gives detailed error and warning messages  
-- 📊 **Code Splitting** – splits code into smaller chunks for better performance  
-- 🧯 **Error Handling** – shows clear errors during build and runtime  
-- 🌲 **Tree Shaking** – removes unused code for smaller bundles  
+---
+
+## 📌 What I Learned
+
+- **React.createElement** → Creates a React element (JavaScript object) → Rendered into an HTML element.
+- **JSX**
+  - JSX is a syntax extension that looks like HTML/XML but works inside JavaScript.
+  - It is transpiled by **Babel** into `React.createElement()` before execution.
+- **Functional Components**
+  - Two syntaxes of functional components were explored.
+  - Components can return JSX and render dynamic values.
+- **Component Composition**
+  - Using one component inside another to build UI.
+
+---
+
+## 🛠 Code Highlights
+
+- Created React elements using both `React.createElement` and JSX.
+- Converted JSX elements into reusable **functional components**.
+- Rendered components using `ReactDOM.createRoot`.
+- Demonstrated component composition by nesting `Heading2Component` inside `HeadingComponent`.
+
+---
