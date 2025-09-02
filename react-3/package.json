@@ -1,0 +1,33 @@
+{
+  "name": "learn-react",
+  "version": "1.0.0",
+  "description": "Learn React",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AmanArora-code/react.git"
+  },
+  "keywords": [
+    "react",
+    "amanarora",
+    "javascript",
+    "npm"
+  ],
+  "author": "Aman Arora",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AmanArora-code/react/issues"
+  },
+  "homepage": "https://github.com/AmanArora-code/react#readme",
+  "dependencies": {
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
+  },
+  "devDependencies": {
+    "parcel": "^2.15.4"
+  }
+}
